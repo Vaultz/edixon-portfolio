@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+        <meta charset='UTF-8' />    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		
+        <title>Galerie</title>
+		
+        <link rel="icon" href="img/linkeeper-favicon.png" />
+        <link href="ressources/css/bootstrap.css" rel="stylesheet">
+        <link href="ressources/css/main.css" rel="stylesheet">
+        <link href="ressources/css/carouselEmily.css" rel="stylesheet">
+        <!-- <link href="ressources/css/cover.css" rel="stylesheet"> -->
+        <script src="ressources/js/html5shiv.js"></script>
+        <script src="ressources/js/respond.min.js"></script>
+        <script src="ressources/js/main.js"></script>
+		
+		<!--
+		<link href="ressources/css/bootstrap.min.css" rel="stylesheet">
+		<link href="ressources/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="ressources/css/cover.css" rel="stylesheet">
+		<script src="ressources/js/ie-emulation-modes-warning.js"></script>
+    	-->
+    </head>
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+  		<div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Mon portfolio</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="index.html">Couverture</a></li>
+                  <li class="active"><a href="GALERIE.html">Galerie</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="ressources/img/carouselImg/webihm.jpg" alt="First slide" height="500px">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Créations Web</h1>
+              <p>Un apperçu de mes travaux front-end en web.</p>
+              <p><a class="btn btn-lg btn-primary" href="#web" role="button">Voir</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="second-slide" src="ressources/img/carouselImg/logo.jpg" alt="Second slide" height="500px">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Quelques logos</h1>
+              <p>Un apperçu de mes réalisations logotypes.</p>
+              <p><a class="btn btn-lg btn-primary" href="#logo" role="button">Voir</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="third-slide" src="ressources/img/carouselImg/cov.jpg" alt="Third slide" height="500px">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Projet "Covers"</h1>
+              <p>Les rendus de trois couvertures d'un projet réalisé à Worthing College.</p>
+              <p><a class="btn btn-lg btn-primary" href="#cov" role="button">Voir</a></p>
+            </div>
+          </div>
+        </div>
+
+      <div class="item">
+          <img class="fourth-slide" src="ressources/img/carouselImg/cody.jpg" alt="Fourth slide" height="500px">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Cody et la tour de la sorcière</h1>
+              <p>Un apperçu de mes illustrations de l'histoire "Cody et la tour de la sorcière", écrite par Vault.</p>
+              <p><a class="btn btn-lg btn-primary" href="#cody" role="button">Voir</a></p>
+            </div>
+          </div>
+        </div>
+
+      <div class="item">
+          <img class="fifth-slide" src="ressources/img/carouselImg/illus.jpg" alt="Fifth slide" height="500px">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Quelques illustrations</h1>
+              <p>Quelques travaux personnels.</p>
+              <p><a class="btn btn-lg btn-primary" href="#illu" role="button">Voir</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+
+		<hr class="featurette-divider" id="web">
+ 		<h2>Créations Web (et IHM)</h2>
+   	   <p>Ces deux dernières années, j'ai eu l'occsion de réaliser plusieurs projets web, ainsi que des projets Java. J'étais généralement chargée du Frontend et du Design.
+   	   Pendant mon année au sein de la société NetApp, j'ai également eu à réaliser un poster pour annoncer aux "NetAppiens" la migration vers Windows 10 et Office 365.
+   	   J'ai regroupé tous ces projets au sein de la même rubrique, jugeant qu'ils tombaient tous dans l'aspect "communication et front-end".</p>
+
+		<div class="row">
+
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/webihm01.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Veille documentaire : l'évolution du jeu vidéo</h3>
+		        <p>Cette veille documentaire, réalisée au 1e semestre de mon DUT informatique, est un projet commun avec deux autres personnes. Celà mis à part, j'ai réalisé la mise en page et le design du site, ainsi que les boutons, le logo et les petites illustrations présents au travers des pages.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb01a">Voir l'image &raquo;</button>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb01b">Voir l'image &raquo;</button>
+		        <div id="myModalWeb01a" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web01.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+				<div id="myModalWeb01b" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web01.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/webihm02.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Régie publicitaire : MIndja Ink.</h3>
+		        <p>Notre projet de groupe du quatrième semestre était une régie publicitaire. Ce projet - réalisé dans le cadre d'un cours de gestion de projets - avait pour but de réunir des publicités et de les offrir à utiliser à d'autres projets web de la classe. Pour notre régie, j'ai utilisé Bootstrap pour la première fois. Le projet étant surtout un projet de gestion, j'ai également eu la tâche de rédiger le rapport et la présentation de fin. De ce fait et dû au temps limité, nous ne nous sommes pas concentrés sur le design, favorisant un site simple, mais intuitif et facile d'accès.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb02">Voir l'image &raquo;</button>
+		        <div id="myModalWeb02" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web02.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/webihm03.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Jeu en Java : Projet Plague</h3>
+		        <p>Bien que "Projet Plague" ne soit pas un design de site web, je tiens à le présenter dans mon portfolio. J'étais entièrement chargée de l'IHM lors de ce projet, et me suis appliquée pour le rendre aussi beau que fonctionnel. Réalisé en une semaine, j'ai voulu rapprocher l'esthétique de notre jeu à celui qui a inspiré le sujet. J'ai utilisé la bibliothèque Swing pour ce projet.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb03">Voir l'image &raquo;</button>
+		        <div id="myModalWeb03" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web03.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="row">
+		  <!--<div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/webihm04.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Thumbnail label</h3>
+		        <p>...</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb04">Voir l'image &raquo;</button>
+		        <div id="myModalWeb04" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web04.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/webihm05.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Thumbnail label</h3>
+		        <p>...</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb05">Voir l'image &raquo;</button>
+		        <div id="myModalWeb05" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web05.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>-->
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/webihm06.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Annonce NetApp</h3>
+		        <p>A l'origine, on m'a demandé de traduire le poster de l'anglais au français mais, suite à des remarques de la part d'utilisateurs, la tache m'a été donnée de le modifier. L'image-logo donnait l'impression qu'Office 365 n'était disponible que sur portable, mais nous devions faire comprendre qu'il accompagnait  aussi la migration vers Windows 10 sur les ordinateurs portables.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb06a">Voir l'image &raquo;</button>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalWeb06b">Voir le poster d'origine &raquo;</button>
+
+		        <div id="myModalWeb06a" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web06a.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+				<div id="myModalWeb06b" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Web06b.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		</div>
+
+      <hr class="featurette-divider" id="logo">
+
+      <h2>Quelques logos</h2>
+      	<p></p>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/logo01.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Logo de Hotline Montreuil 1</h3>
+		        <p>Ce logo m'a été demandé par un camarade de classe pour le tumblr humoristique de notre promotion de DUT informatique. Le nom du tumblr étant inspiré du jeu vidéo "Hotline Miami", il m'a demandé de reprendre le logo du jeu et de le détourner. Je lui ai également réalisé un monogramme.</p>
+		        <p><a href="http://www.hardcoregaming101.net/hotlinemiami/logo.png">Lien vers le logo du jeu</a></p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalLogo01a">Voir l'image &raquo;</button>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalLogo01b">Voir le mongramme &raquo;</button>
+
+		        <div id="myModalLogo01a" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Logo01a.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        <div id="myModalLogo01b" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Logo01b.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/logo02.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Logo de DualQuizz</h3>
+		        <p>Suite au logo précédent, mon camarade m'a demandé de préparer un logo pour une seconde version du Hotline de la promotion qu'il a réalisé au sein d'un projet en classe, cette fois-ci inspiré par le titre de "Hotline Miami 2".
+		        J'ai ensuite détourné ce nouveau logo pour en faire le logo du projet que mon groupe a mené. Ce projet était un site web interactif dont j'étais chargée du design de base.</p>
+		        <p><a href="http://www.cridutroll.fr/wp-content/uploads/2015/03/HM-title.jpg">Lien vers le logo du jeu</a></p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalLogo02a">Voir l'image &raquo;</button>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalLogo02b">Voir "Hotline Montreuil 2" &raquo;</button>
+
+		        <div id="myModalLogo02a" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Logo02a.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        <div id="myModalLogo02b" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Logo02b.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/logo03.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Recherches de logo</h3>
+		        <p>Travail préparatoire réalisé en licence pour la réalisation d'un logo pour un "Food Truck". Je mettrais en ligne le logo selectionné et terminé une fois réalisé.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalLogo03">Voir l'image &raquo;</button>
+		        <div id="myModalLogo03" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Logo03.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+      <hr class="featurette-divider" id="cov">
+
+ 		<h2>Projet "Covers"</h2>
+      	<p>Ces trois couvertures, réalisées numériquement, étaient le fruit de mon projet final à Worthing College. Le thème était "Growth and Evolution" et je voulais aller plus loin dans la démarche illustrative que je suivais depuis le début de l'année.</p>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/cov01.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Qui veut tuer Alaizabel Cray ?</h3>
+		        <p>Ce roman de Chris Wooding a toujours été un de mes favoris en grandissant. J'ai voulu lui rendre hommage en réalisant une couverture menaçante et sombre pour mon projet final. Réalisée presque entièrement avec the Gimp, seul le dessin de Londres a été fait à la main.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCover01a">Voir l'image &raquo;</button>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCover01b">Voir croquis de préparation &raquo;</button>
+
+		        <div id="myModalCover01a" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/THOAC-Final.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        <div id="myModalCover01b" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/THOAC-Pencil.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/cov02.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Le Chantdes Flammes</h3>
+		        <p>La trilogie du Chant des Flammes de William Nicholson a également été un de mes préferés en grandissant. L'univers est très particulier, évoquant la Rome Antique et les pays d'Orient. Cette couverture, entièrement réalisée avec the Gimp, peut illustrer deux des passages les plus marquants de la trilogie.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCover02">Voir l'image &raquo;</button>
+		        <div id="myModalCover02" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/TWOF-Final.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/cov03.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Harry Potter, la collection complète</h3>
+		        <p>La série de livre qui m'a le plus marqué dans mon enfance fut celle des Harry Potter, de JK Rowling. Ayant constaté la ré-édition des volumes français, j'ai voulu réaliser une couverture-poster représentant les sept livres. L'illustration des trois personnages principaux a été réalisée sur le Gimp, en "décalquant" des blocs de couleurs d'une photographie de base.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCover03">Voir l'image &raquo;</button>
+		        <div id="myModalCover03" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/HP-Final.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+      <hr class="featurette-divider" id="cody">
+
+      <h2>Cody et la tour de la sorcière</h2>
+      <p>Cody et la tour de la sorcière est une histoire écrite par Vault. Non-publié, son travail raconte l’histoire d’une petite fille explorant une tour magique en compagnie d’un chien parlant. Mon travail sur ce projet a été de concretiser le design des personnages, la réalisations de couvertures et illustrations de chapitres.</p>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/Cody01.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Le Premier dessin de Cody</h3>
+		        <p>Après plusieurs croquis de recherche, ce premier dessin du personnage principal de l'histoire a posé les bases de l'apparence de la fillette. Réalisé avec des crayons de couleur aquarellables et des aquarelles, je voulais donner à cette illustration un côté leger avec des teintes peu soutenues.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody01">Voir l'image &raquo;</button>
+		        <div id="myModalCody01" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody01.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/Cody02.jpg" alt="...">
+		      <div class="caption">
+		        <h3>La Sorcière</h3>
+		        <p>Avec cette illustration de la sorcière, j'ai voulu représenter l'atmosphère inquiètante l'entourant ainsi que son apparence sinistre. J'ai utilisé des crayons à fusain et des pastels secs noirs, associés à une gomme et des pastels gris et blancs pour les contrastes, pour obtenir un résultat sombre et menaçant.</p>
+		       <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody02">Voir l'image &raquo;</button>
+		        <div id="myModalCody02" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody02.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/Cody03a.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Ode</h3>
+		        <p>Ce dessin du personnage Ode est la deuxième version du personnage. Le premier dessin qui devait fixer son apparence ne m'ayant pas satisfaite - trop peu proche de la vision de l'auteur - j'ai voulu la refaire, en changeant presque tous les composants. Les seules choses n'ayant pas changé furent la longueur des cheveux et la couleur des vêtements.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody03a">Voir l'image &raquo;</button>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody03b">Voir ancienne version &raquo;</button>
+
+		        <div id="myModalCody03a" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody03a.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        <div id="myModalCody03b" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody03b.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/Cody04.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Entêtes de chapitres</h3>
+		        <p>Ces entêtes de chapitres - fusain noir et stylos blancs - sont les premiers d'une longue série en préparation. Chacun représente(ra) un élément du chapitre associé, avec pour but final d'illustrer chaque chapitre de façon unique.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody04">Voir l'image &raquo;</button>
+		        <div id="myModalCody04" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody04.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/Cody05.jpg" alt="...">
+		      <div class="caption">
+		        <h3>La couverture de Cody</h3>
+		        <p>A la base une simple illustration réalisée aux feutres à alcool, l'auteur en a fait la couverture WattPad (le support ou été publié l'histoire la première fois) de son histoire.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody05">Voir l'image &raquo;</button>
+		        <div id="myModalCody05" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody05.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/Cody06.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Cody et sa massue</h3>
+		        <p>Ce dessin est la première vraie tentative que j'ai faite pour réaliser un dessin de la massue. Je me suis inspirée de designs Steampunk, en particulier de stylo-plumes, pour réaliser les détails de la masse.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalCody06">Voir l'image &raquo;</button>
+		        <div id="myModalCody06" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/Cody06.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+      <hr class="featurette-divider" id="illu">
+
+      <h2>Quelques illustrations</h2>
+      <p>Lorsqu'il s'agit de faire des dessins personnels ou illustratifs, j'ai une préférence pour l'art traditionnel, qui m'offre un control plus pointu de mon travail. Cependant, j'ai réalisé quelques travaux numériques grâce au logiciel "The Gimp", que je maitrise très bien.</p>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/illus01.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Le Marecage</h3>
+		        <p>En illustration, je suis très à l'aise quand il s'agit de personnages, mais beaucoup moins quand il s'agit de paysages et décors. Ce dessin était un défi que je m'étais lancée : représenter quelque chose sans aller dans la même quantité de détails pointilleux que j'applique toujours à mes personnages.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalIllus01">Voir l'image &raquo;</button>
+		        <div id="myModalIllus01" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/illus01.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/illus02.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Créature fantastique</h3>
+		        <p>Ce dessin, réalisé au pastel sec, était de nouveau un défi. Je voulais réaliser une créature n'existant pas, sans modèle. J'ai toujours eu beaucoup de mal à dessiner les animaux, et cette créature lion-ours-rat m'a montrée que je pouvais y arriver avec beaucoup de patience et des outils appropriés.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalIllus02">Voir l'image &raquo;</button>
+		        <div id="myModalIllus02" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/illus02.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/illus03.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Le canyon sinistre</h3>
+		        <p>Ce dessin minimaliste, réalisé avec un stylo noir bon marché, un pinceau et de l'eau, représente de nouveau un lieu, un décor. Je voulais y apporter un peu plus de détails que pour le marécage, sans pour autant trop détailler.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalIllus03">Voir l'image &raquo;</button>
+		        <div id="myModalIllus03" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/illus03.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/illus04.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Tea Party and the Hightops</h3>
+		        <p>Avec ce dessin, j'ai voulu improviser du mobilier original, s'inscrivant dans l'univers d'Alice au Pays des Merveilles de Tim Burton. J'ai voulu experimenter à dessiner les plis de la nape et les rembourages des fauteuils. C'est un dessin datant de 2010 et mon style à beaucoup évolué depuis. Pourtant je le considère toujours comme un de mes plus aboutis.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalIllus04">Voir l'image &raquo;</button>
+		        <div id="myModalIllus04" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/illus04.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/illus05.jpg" alt="...">
+		      <div class="caption">
+		        <h3>Daenerys et Jorah</h3>
+		        <p>Cette illustration sur le thème du Trone de Fer a été réalisée avec Le Gimp en utilisant une image de base, en sélectionnant des portions de couleur et en les réplicant sur un autre calque. C'était ma première experimentation avec cette technique, et j'avais beaucoup aimé le résultat finalement très different de l'image d'origine.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalIllus05">Voir l'image &raquo;</button>
+		        <div id="myModalIllus05" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/illus05.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+
+		   <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="ressources/img/Thumbnails/illus06.jpg" alt="...">
+		      <div class="caption">
+		        <h3>L'archère</h3>
+		        <p>Les feutres à alcool sont mes outils favoris quand il s'agit de faire des illustrations personnelles. Dans ce cas-ci, j'ai été inspirée par une photographie trouvée sur le site Deviantart. Ce que je préfère avec ces outils est la parfaite progression d'une couleur à une autre dans un dégradé et la nettetée des traits quand les couleurs sont en place. Les traits de feutre n'existent pas.</p>
+		        <p>
+		        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalIllus06">Voir l'image &raquo;</button>
+		        <div id="myModalIllus06" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				        <div class="modal-body">
+				            <img src="ressources/img/illus06.jpg" class="img-responsive">
+				        </div>
+				    </div>
+				  </div>
+				</div>
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+      <hr class="featurette-divider">
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Site réalisé par Emily Dixon, en septembre 2016, avec l'aide de Boostrap. &middot;</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="ressources/js/jquery.js"></script>
+    <script src="ressources/js/carousel.js"></script>
+    <script src="ressources/js/bootstrap.min.js"></script>
+  </body>
+</html>
